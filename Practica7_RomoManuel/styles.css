@@ -1,0 +1,179 @@
+
+/*
+Manuel Romo López
+ID: 00000253080
+*/
+:root{
+    --background: #2B2D42;
+    --hot-pink: #F51AA4;
+    --silver: #C2C1C2;
+    --lime: #B5F44A;
+    --mint: #70EE9C;
+    --orchid: #E07BE0;
+    --bright-blue:#3454D1;
+    --lilac: #BE97C6;
+    --flamingo: #FC6471;
+    --turquoise: #55D6BE;
+    --flame: #EC4E20;
+    --yellow: #FFE066;
+    --ultra-violet: #694ABF;
+    --showgirl: #E98A15;
+    --evermore: #AF9164;
+    --salmon: #FFA5AB;
+
+}
+
+body{
+    background-color: var(--background);
+}
+
+.grid{
+    display: grid;
+    width: 80%;
+    margin:auto;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 20vh 20vh 20vh;
+    column-gap: 1em;
+    row-gap: 2.5em;
+}
+
+/*Grid Rows*/
+
+.grid-rows{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20vh 20vh 10vh;
+    justify-content: space-evenly;
+    height: 70vh;
+    align-content: space-evenly;
+    
+}
+
+.first{
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.second{
+    grid-area: 1 / 3 / 2 / 5;
+}
+
+.fourth{
+    grid-column: 2 / 5;
+}
+
+.full-row{
+    grid-area: 3 / 1 / 4 / 5;
+}
+
+/*bento box*/
+
+.bento-box{
+
+    display:grid;
+    width:80%;
+    margin:auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 6.5em 4.5em 3.5em 8.5em;
+    gap: 5px;
+
+}
+
+.side-right{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.bottom-right{
+    grid-column:5/6;
+    grid-row:3/5;
+}
+
+.middle-left{
+    grid-area: 2 / 1 / 4 / 2;
+}
+
+.less-width{
+    width:50%;
+    grid-row: 2 / 3;
+    grid-column: 5 / 6;
+    justify-self: end;
+}
+
+.sister-less-width{
+    width:50%;
+    grid-row: 2 / 3;
+    grid-column: 5 / 6;
+    justify-self: start;
+}
+
+.less-heigth{
+    height: 50%;
+    grid-row: 4 / 5;
+    grid-column: 4 / 5;
+    align-self: center;
+}
+
+
+/* colors classes */
+
+.yellow{
+    background-color: var(--yellow);
+}
+
+.hot-pink{
+    background-color: var(--hot-pink);
+}
+
+.lime{
+    background-color: var(--lime);
+}
+
+.mint{
+    background-color: var(--mint);
+}
+
+.orchid{
+    background-color: var(--orchid);
+}
+
+.bright-blue{
+    background-color: var(--bright-blue);
+}
+
+.lilac{
+    background-color: var(--lilac);
+}
+
+.flamingo{
+    background-color: var(--flamingo);
+}
+
+.turquoise{
+    background-color: var(--turquoise);
+}
+
+.flame{
+    background-color: var(--flame);
+}
+
+.silver{
+    background-color: var(--silver);
+}
+
+.ultra-turquoise{
+    background-color: var(--ultra-violet);
+}
+
+.showgirl{
+    background-color: var(--showgirl);
+}
+
+.evermore{
+    background-color: var(--evermore);
+}
+
+.salmon{
+    background-color: var(--salmon);
+}
