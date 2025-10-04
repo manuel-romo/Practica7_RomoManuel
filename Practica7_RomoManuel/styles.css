@@ -115,6 +115,25 @@ body{
     align-self: center;
 }
 
+.bottom-left{
+    grid-area: 4 / 1 / 5 / 3;
+}
+
+.less-heigth-top-left{
+    height:50%;
+    grid-area: 1 / 1 / 2 / 2;
+    align-self: start;
+}
+
+.less-heigth-top-left-sister{
+    height: 50%;
+    grid-area: 1 / 1 / 2 / 2;
+    align-self: end;
+}
+
+.top-left-three-rows{
+    grid-area: 1 / 2 / 3 / 3;
+}
 
 /* colors classes */
 
@@ -162,7 +181,7 @@ body{
     background-color: var(--silver);
 }
 
-.ultra-turquoise{
+.ultra-violet{
     background-color: var(--ultra-violet);
 }
 
